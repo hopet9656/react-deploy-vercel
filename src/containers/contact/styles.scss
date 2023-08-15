@@ -1,0 +1,48 @@
+/* styles.scss */
+.contact {
+    &__content {
+      padding: 20px;
+  
+      &__header-text {
+        /* ... (header text styles) ... */
+      }
+  
+      &__details {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-top: 20px;
+  
+        .contact__detail {
+          display: flex;
+          align-items: center;
+          color: var(--yellow-theme-sub-text-color);
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 1.5;
+          transition: color 0.3s ease;
+  
+          &:hover {
+            color: var(--yellow-theme-main-color);
+          }
+  
+          .contact__icon {
+            margin-right: 10px;
+            font-size: 24px;
+          }
+  
+          a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: inherit;
+  
+            &:hover {
+              color: var(--yellow-theme-main-color);
+            }
+          }
+        }
+      }
+    }
+  }
+  
