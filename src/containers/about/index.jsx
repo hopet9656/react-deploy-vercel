@@ -17,7 +17,7 @@ const personalDetails = [
   },
   {
     label: "Address",
-    value: "Gauteng,Pretoria,South Africa",
+    value: "Gauteng, Pretoria, South Africa",
   },
   {
     label: "Email",
@@ -29,31 +29,9 @@ const personalDetails = [
   },
 ];
 
-const jobSummary ="Highly motivated and junior Python developer with a strong foundation in computerscience principles and practical experience. Proficient in Python programming and skilledin various libraries and frameworks. Successfully developed a number of user-friendlyapplications, including a RESTful API for a weight gain tracking app. Eager to contribute myknowledge and enthusiasm to a dynamic development team. Proactive problem-solver,with a track record of delivering impactful projects in Python development. Successfullytransioned from an experienced IT helpdesk into soffware development";      
+const jobSummary =
+  "My name is Hope Mashakeni, and I am enthusiastic about the opportunity to contribute my skills and experience to your esteemed company. As a qualified software developer and a graduate in IT technology, my journey in the world of technology has been one of continuous growth and dedication.I wor in the IT department.My academic background in software engineering has equipped me with a strong foundation in various programming languages, software design principles, and problem-solving techniques. Through rigorous coursework and practical projects, I honed my ability to create efficient and innovative software solutions that align with industry standards. This passion for crafting elegant and effective code drove me to excel in my studies and graduate with a solid understanding of the ever-evolving landscape of technology.During my time at PSA Head Office, I had the privilege of working within the IT department, where I immersed myself in a range of roles that enriched my technical expertise. My initial role in IT support provided me with valuable insights into the challenges end-users face and allowed me to develop a patient and empathetic approach to troubleshooting. Collaborating with colleagues across different departments, I learned to effectively communicate complex technical concepts in a clear and accessible manner, fostering a positive user experience.. Highly motivated and junior Python developer with a strong foundation in computer science principles and practical experience. Proficient in Python programming and skilled in various libraries and frameworks. Successfully developed a number of user-friendly applications, including a RESTful API for a weight gain tracking app. Eager to contribute my knowledge and enthusiasm to a dynamic development team. Proactive problem-solver, with a track record of delivering impactful projects in Python development. Successfully transitioned from an experienced IT helpdesk into software development";
 
-const projectDetails = [
-  {
-    title: "Python Projects Breakdown",
-    description:
-      "PROJECT1:Created a weight gain tracking app using Python and an external API to track users' progress. The app allows users to set weight gain goals, record daily progress, and visualize trends over time. Acquired strong proficiency in working with RESTful APIs to fetch and store user data securely.",
-    technologies: "Python",
-    //repositoryLink:
-      //"Link to the project's Github repository - https://hopet9656.github.io/weightTracker.github.io/",
-    duties:
-      "Designing the app architecture, integrating external API for data retrieval, implementing data visualization features, ensuring data privacy and security.",
-  },
-  //more projects
-  {
-    title: "Project 2",
-    description:
-      "Created a card form using Django, HTML, CSS, and JavaScript. The app allows users to submit credit card details online for purchasing items.",
-    technologies: "Python, Django, HTML, CSS, JavaScript",
-    repositoryLink:
-      "Link to the project's Github repository - [Link to your repository]",
-    duties:
-      "Designing the card form, implementing data submission functionality, ensuring secure data handling.",
-  },
-];
 const About = () => {
   return (
     <section id="about" className="about">
@@ -77,31 +55,7 @@ const About = () => {
             <h3>Back End Developer</h3>
             <p>{jobSummary}</p>
 
-            {/* Python Projects Breakdown */}
-            <div className="project-breakdown">
-            <h2 style={{ fontSize: '28px', color: 'var(--yellow-theme-main-color)' }}>
-                Python Projects Breakdown
-              </h2>
-              
-              <p>{projectDetails[0].description}</p>
-              <p>Technologies Used: {projectDetails[0].technologies}</p>
-              <p>Duties: {projectDetails[0].duties}</p>
-            
-            </div>
-            {/* Project 2 */}
-            <div className="project-breakdown">
-              <h2 style={{ fontSize: '28px', color: 'var(--yellow-theme-main-color)' }}>
-                Project 2
-              </h2>
-              <p>{projectDetails[1].description}</p>
-              <p>
-                <strong>Technologies Used:</strong> {projectDetails[1].technologies}
-              </p>
-              <p>
-                <strong>Duties:</strong> {projectDetails[1].duties}
-              </p>
-              
-              </div>
+            {/* You can add more content here if needed */}
           </Animate>
 
           <h3 className="personalInformationHeaderText">
@@ -150,7 +104,3 @@ const About = () => {
 };
 
 export default About;
-
-
-
-

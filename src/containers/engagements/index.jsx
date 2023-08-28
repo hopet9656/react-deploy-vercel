@@ -57,7 +57,7 @@ const Resume = () => {
           </VerticalTimeline>
         </div>
         <div className="timeline__education">
-          <h3 className="timeline__education__header-text">Education</h3>
+          <h3 className="timeline__education__header-text"></h3>
           <VerticalTimeline
             layout={"1-column"}
             lineColor="var(--yellow-theme-main-color)"

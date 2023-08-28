@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PageHeaderContent from "../../components/pageHeaderContent";
 import { BsInfoCircleFill } from "react-icons/bs";
-import { FaEnvelope, FaPhone, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaPhone, FaFacebook, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 import { Animate } from "react-simple-animate";
 import "./styles.scss";
 
@@ -37,17 +37,17 @@ const Contact = () => {
           </div>
           <div className="contact__detail">
             <a
-              href="https://www.facebook.com/hope.tshepo.148"
+              href="https://github.com/hopet9656"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaFacebook className="contact__icon" />
-              <p>Facebook</p>
+              <FaGithub className="contact__icon" />
+              <p>Github</p>
             </a>
           </div>
           <div className="contact__detail">
             <a
-              href="https://www.instagram.com/yourinstagramprofile"
+              //href="https://www.instagram.com/yourinstagramprofile"
               target="_blank"
               rel="noopener noreferrer"
             >
