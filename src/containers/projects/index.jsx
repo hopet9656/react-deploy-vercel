@@ -7,6 +7,7 @@ import ImageTwo from "../../images/image2.png";
 import ImageThree from "../../images/image3.jpg";
 import ImageFour from "../../images/image4.GIF";
 import ImageFive from "../../images/image5.webp";
+import ImageSix from "../../images/image6.GIF";
 import "./styles.scss";
 
 const portfolioData = [
@@ -16,6 +17,13 @@ const portfolioData = [
     image: ImageOne,
     link: "https://hopet9656.github.io/weightTracker.github.io/",
   },
+  {
+    id: 7,
+    name: "Book Review Blog",
+    image: ImageSix,
+    link: "https://hopeyshakes.blogspot.com/",
+  },
+  
   {
     id: 3,
     name: "Tic-tac-toe",
@@ -40,6 +48,8 @@ const portfolioData = [
     image: ImageFive,
     link: "https://github.com/hopet9656/SnakeGame.github.io",
   },
+
+  
 ];
 
 const filterData = [
